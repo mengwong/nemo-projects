@@ -40,9 +40,7 @@ All of these datasets are eventually combined to form [final_df](./data/final.cs
 ### Sources for Datasets
 
 - [SAT 2017 Data Source here](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)
-<<<<<<< HEAD
 - [ACT 2017 Data Source here](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-low0s)
-=======
 - [ACT 2017 Data Source here](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-lows)
 >>>>>>> a80f40975397a619a8666eb2090205667eb979e8
 - [SAT 2018 Data Source here](https://reports.collegeboard.org/archive/sat-suite-program-results/2018/state-results)
