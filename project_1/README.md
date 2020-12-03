@@ -30,7 +30,7 @@ We will see these recommendations theoretically applied to Oregon to improve the
 
 ## Datasets
 
-- [SAT 2017 Scores](./data/sat_2017.csv), shape: (51, 5)[Source here](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)
+- [SAT 2017 Scores](./data/sat_2017.csv), shape: (51, 5)
 - [SAT 2018 Scores](./data/sat_2018.csv), shape: (51, 7)
 - [ACT 2017 Scores](./data/act_2017.csv), shape: (51, 5)
 - [ACT 2018 Updated Scores](./data/act_2018_updated.csv), shape: (51, 7)
@@ -39,10 +39,10 @@ All of these datasets are eventually combined to form [final_df](./data/final.cs
 
 ### Sources for Datasets
 
-[SAT 2017 Data Source here](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)
-[ACT 2017 Data Source here](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-lows)
-[SAT 2018 Data Source here](https://reports.collegeboard.org/archive/sat-suite-program-results/2018/state-results)
-[ACT 2018 Data Source here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf)
+- [SAT 2017 Data Source here](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)
+- [ACT 2017 Data Source here](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-low0s)
+- [SAT 2018 Data Source here](https://reports.collegeboard.org/archive/sat-suite-program-results/2018/state-results)
+- [ACT 2018 Data Source here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf)
 
 ## Data Dictionary
 
