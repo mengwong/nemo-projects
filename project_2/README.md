@@ -50,9 +50,9 @@ Success will be measured by comparing my model's predictions with the provided t
 
 ## Section 2: Notebooks in this project
 
-1. [Data Cleaning](01_data_cleaning.ipynb)
-2. [Exploratory Data Analysis](02_eda.ipynb)
-3. [Prediction and Conclusions](03_prediction_and_conclusion.ipynb)
+1. [Data Cleaning](notebooks/01_data_cleaning.ipynb)
+2. [Exploratory Data Analysis](notebooks/02_eda.ipynb)
+3. [Prediction and Conclusions](notebooks/03_prediction_and_conclusion.ipynb)
 
 ## Section 3: Data Dictionary
 
