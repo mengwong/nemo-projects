@@ -8,6 +8,37 @@ As such, this project aims to identify factors that affect **participation rates
 
 This notebook utilises **Exploratory Data Analysis** and references state government websites to reach recommendations and conclusions.
 
+## Problem Statement
+
+### Introduction
+In the United States of America (USA), students sit various entrance exams to enter college. Two popular entrance exams are the SAT and the ACT. Both exams are administered by separate non-profit organisations. The not-for-profit [College Board](https://www.collegeboard.org/) administers the SAT, while the nonprofit [ACT organisation](https://www.act.org/) administers the ACT.
+
+Students frequently sit both exams as they are both common admission requirements for USA colleges. While both of these exams [differ in content](https://blog.prepscholar.com/act-vs-sat), they are similar enough in format to make comparisons to each other thanks to a recent change in format, discussed below.
+
+To keep up with modern test-taking methodology and changes, a new format for the SAT exams was released in March 2016. [Several major changes were made](https://blog.prepscholar.com/new-sat-format-2016), such as standardising the order in which subjects were tested, as well as the amount of time and number of questions given. This mean that the format was more aligned with the ACT's.
+
+### Project goals and why they matter
+
+In this project, I am an employee of the College Board (linked above) and need to recommend where money should be spent to improve SAT participation rates, which shows in percentage how much of the student population took that particular test. For example, an 80% participation rate in SATs in a state means that 80% of students in that state took the SAT. 
+
+As such, this project aims to identify factors that affect **participation rates** and **scores** for the SAT.
+
+#### Why participation rates and scores in different states matter
+
+As [this blog post explains](https://blog.prepscholar.com/average-sat-and-act-scores-by-stated-adjusted-for-participation-rate), Participation rates matter because states with low SAT participation have artificially higher SAT scores. This is because only highly motivated students will take the SAT and they are more likely to score higher than the average student. As such, they _bias score averages_.
+
+#### Why a biased score average for a state is detrimental
+
+As [Kate Sundquit explains](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/), Average SAT scores by state matters because the score is used to help colleges form a diverse class. One factor involved in making such a decision is by considering the geographical factors. Students compete with other students within the same state. 
+
+If SAT scores are artificially high, students that scored high marks may not be accepted into the college because their score may be lower than the average. The score also affects scholarship grants, again disadvantaging those with high scores that aren't the cream of the crop.
+
+This ultimately leads to colleges accepting only the top students, which [perpetuates class inequality](https://www.cnbc.com/2019/10/03/rich-students-get-better-sat-scores-heres-why.html) as students who are top scorers generally tend to come from rich families.
+
+For these reasons, it is imperative to improve participation rates in states where participation rates are low.
+
+
+
 ## Summary of Conclusions
 
 To improve SAT participation rates, do the following:
@@ -44,6 +75,11 @@ All of these datasets are eventually combined to form [final_df](./data/final.cs
 - [ACT 2017 Data Source here](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-lows)
 - [SAT 2018 Data Source here](https://reports.collegeboard.org/archive/sat-suite-program-results/2018/state-results)
 - [ACT 2018 Data Source here](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf)
+
+In addition, state-by-state average results and participation for the SAT  and SAT are referred to.
+
+- [2018 SAT reported results (HTML)](https://newsroom.collegeboard.org/more-2-million-students-class-2018-took-sat-highest-ever)
+- [2018 ACT reported results (pdf)](http://www.act.org/content/dam/act/unsecured/documents/cccr2018/Average-Scores-by-State.pdf)
 
 ## Data Dictionary
 
