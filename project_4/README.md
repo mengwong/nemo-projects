@@ -36,6 +36,8 @@ Each record in the evaluation file will be a real-valued probability (0-1) that 
 
 ## Section 2: Notebooks in this project
 
+1. [Exploratory Data Analysis](code/01_weather_and_train_data_analysis.ipynb)
+2. [Modelling and Prediction](code/02_Modelling_and_prediction.ipynb)
 
 ## Section 3: Datasets and data dictionaries
 
@@ -135,6 +137,44 @@ It has all the features from the train.csv **except NumMosquitos and WnvPresent*
 
 ## Section 4: Production Model and Analysis
 
+### Part 4.1: The final production model
 
+The final production model was an Adaboost model. The model had achieved a score of 73% on the training set and 72% on the test set, meaning that it had some bias, but quite a low variance. This means that it generalised well. This is compared to some other models we tested, including: 
 
-## Section 5: References
+- Logistic Regression
+- K-Nearest neighbors
+- Random Forest
+- Support Vector Machine
+- Adaboost (final production model)
+
+The other models obtained really high training scores of more than 90%, but scored around 60-70% on the test set. This means that these models had low bias, but really high variance. This is one reason why we chose the higher biased Adaboost model, because of the generalisability.
+
+### Part 4.2: Kaggle scoring
+
+The kaggle scoring system required us to submit probabilities instead of the classes. i.e. scores of 0.9 and 0.4 (probabilities) were required, rather than the binary 0 and 1 (classifications).
+
+We obtained a Kaggle score of 64%. However, the score was not very meaningful because all of the probabilities predicted by the model was around 0.1 and 0.2. In other words, the final predictions were all 0. So the model guessed the majority class with different probabilities.
+
+### Part 4.3: Why we obtained the score
+
+Adaboost works by combining the outputs of many weak classifiers, in this case decision tree classifiers, and weights the values that were wrong more. Adaboost then runs the classification again with the modified weights on the outputs. The model then converges into a strong learner.
+
+Adaboost is better in situations where there is overfitting by other classifiers. Since the other models had low bias and high variance, it was very easy to overfit on the training data in this case. This is why adaboost generalised the best.
+
+As to why it guessed a low probability of 0.1 and 0.2 each time, it may have been because of the class imbalance in the dataset, where a majority of mosquitos did not have WNV present. The model probably noticed this and simply learned that most mosquitos had a low probability of having WNV.
+
+### Part 4.4: How we could improve in the future
+
+Due to a variety of factors, we did not explore further methods for improving the score. In the future, we could:
+
+1. Do some feature engineering. This includes possibly combining longtitude and latitude into one feature and removing some features so that the model focuses on only a few independent features. 
+
+2. Check and use spatial correlation between the spray, map, and weather data.
+
+## Section 5: Cost-Benefit Analysis
+
+If we want to spray the entire area to get rid of as many mosquitos as possible, it will bring us $2777496 worth of benefits. However, the costs will be around $311404, resulting in more costs than benefits. The city should focus on certain key hotspots to remove the virus.
+
+Another reason why the costs outweighed the benefits was because we calculated the results using home-use pesticides, rather than industrial standard pesticide. Purchasing industrial standard pesticide would be much cheaper overall.
+
+Finally, the benefits of spraying could have been understated.

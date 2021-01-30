@@ -125,6 +125,8 @@ SNOMED-CT is a standardised way of talking about diagnoses and medical terms.
 
 ## References
 
+"A cascaded classifier for multi-lead ECG based on feature fusion", [https://doi.org/10.1016/j.cmpb.2019.06.021](https://doi.org/10.1016/j.cmpb.2019.06.021)
+
 1. C.  Ye,  M.  T.  Coimbra,  and  B.  V.  Kumar,  “Arrhythmia  detection  and  classificationusing   morphological   and   dynamic   features   of   ECG   signals”,   in _2010 Annual International  Conference  of  the  IEEE  Engineering  in  Medicine  and  Biology_,  IEEE,2010, pp. 1918–1921.
 
 2. A.  H.  Ribeiro,  M.  H.  Ribeiro,  G.  M.  Paixao,  D.  M.  Oliveira,  P.  R.  Gomes,  J.  A.Canazart,  M.  P.  Ferreira,  C.  R.  Andersson,  P.  W.  Macfarlane,  M.  Wagner  Jr,etal., “Automatic diagnosis of the 12-lead ECG using a deep neural network”, _NatureCommunications_, vol. 11, no. 1, pp. 1–9, 2020.
