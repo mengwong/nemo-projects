@@ -3,31 +3,10 @@
 ## Table of Contents
 
 1. [Section 1: What is ECG data?](#section-1-what-is-ecg-data)
- 1. [Part 1.1: What does ECG data measure?](#part-1-1-what-does-ecg-data-measure)
- 2. [Part 1.2: How is ECG data taken?](#part-1-2-how-is-ecg-data-taken)
- 3. [Part 1.3: Classifying ECGs](#part-1-3-classifying-ecgs)
 2. [Section 2: Reading an ECG](#section-2-reading-an-ecg)
- 1. [Part 2.1: A standard ECG layout](#part-2-1-a-standard-ecg-layout)
- 2. [Part 2.2: A standard heartbeat](#part-2-2-a-standard-heartbeat)
-  1. [Part 2.2.1: The P-wave](#part-2-2-1-the-p-wave)
-  2. [Part 2.2.2: The QRS complex](#part-2-2-2-the-qrs-complex)
-  3. [Part 2.2.3: The T-wave](#part-2-2-3-the-t-wave)
 3. [Section 3: Exploring ECG data](#section-3-exploring-ecg-data)
- 1. [Part 3.1: What type of data is ECG data?](#part-3-1-what-type-of-data-is-ecg-data)
- 2. [Part 3.2: Time domain, frequency domain, and time-frequency domain](#part-3-2-time-domain-frequency-domain-and-time-frequency-domain)
-  1. [Part 3.2.1: Time domain](#part-3-2-1-time-domain)
-  2. [Part 3.2.2: Frequency domain](#part-3-2-2-frequency-domain)
-  3. [Part 3.2.3: Time-frequency domain](#part-3-2-3-time-frequency-domain)
-  4. [Part 3.2.4: Converting a signal between the 3 domains](#part-3-2-4-converting-a-signal-between-the-3-domains)
- 3. [Part 3.3: Libraries used](#part-3-3-libraries-used)
-  1. [Part 3.3.1: Libraries used to process signals in general](#part-3-3-1-libraries-used-to-process-signals-in-general)
-  2. [Part 3.3.2: Libraries used to process bio-signals, including ECG data](#part-3-3-2-libraries-used-to-process-bio-signals-including-ecg-data)
 4. [Section 4: Feature Engineering with ECG data](#section-4-feature-engineering-with-ecg-data)
 5. [Section 5: Models for classifying ECG data](#section-5-models-for-classifying-ecg-data)
- 1. [Part 5.1: Neural Network methodologies](#part-5-1-neural-network-methodologies)
- 2. [Part 5.2: Non-Neural Network methodologies](#part-5-2-non-neural-network-methodologies)
-  1. [Part 5.2.1: KNN-DTW](#part-5-2-1-knn-dtw)
-  2. [Part 5.2.2: Cascading classifiers](#part-5-2-2-cascading-classifiers)
  
 
 ## Section 1: What is ECG data?
