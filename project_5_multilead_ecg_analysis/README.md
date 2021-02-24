@@ -1,5 +1,14 @@
 # Classification of 12-lead ECGs from the PTB-XL Database by Yap Jun Hong (Nemo)
 
+## Table of contents
+
+1. [Section 1: Project directory](#section-1-project-directory)
+2. [Section 2: Why is this project important?](#section-2-why-is-this-project-important)
+3. [Section 3: Dataset used](#section-3-dataset-used)
+4. [Section 4: Goals and metrics of this project](#section-4-goals-and-metrics-of-this-project)
+5. [Section 5: Data exploration and engineered features](#section-5-data-exploration-and-engineered-features)
+6. [Section 6: References](#section-6-references)
+
 ## Section 1: Project directory
 
 ### Part 1.1: Notebooks in this project
@@ -115,7 +124,7 @@ Data exploration was attempted, although a standardised process of exploring ECG
 
 In my exploration, I decomposed the ECG signal into its trend, seasonality, and residue. I checked for stationarity, and most of the ECGs (89%) were considered stationary. I checked for P, Q, R, S, and T peaks, and checked heart rate variability, although I was not sure how to interpret heart rate variability.
 
-### Part 5.2: Engineered data
+### Part 5.2: Engineered features
 
 The features engineered roughly follow what was created in the Cascading Classifier paper. They can be split into 3 types of features:
 
@@ -137,17 +146,17 @@ Two papers were referred to for classification
 
 [1] G. Chen, Z. Hong, Y. Guo and C. Pang, "A cascaded classifier for multi-lead ECG based on feature fusion,"_Computer Methods and Programs in Biomedicine_, vol. 178, pp. 135-143, September 2019. Available: [https://doi.org/10.1016/j.cmpb.2019.06.021](https://doi.org/10.1016/j.cmpb.2019.06.021) [Accessed Feb. 24, 2021].
 
-[2] R. Assaf, I. Giurgiu, F. Bagehorn and A. Schumann, "MTEX-CNN: Multivariate Time Series EXplanations for Predictions with Convolutional Neural Networks," _2019 IEEE International Conference on Data Mining (ICDM), Beijing, China, 2019_, pp. 952-957. Available: [10.1109/ICDM.2019.00106.](10.1109/ICDM.2019.00106).
+[2] R. Assaf, I. Giurgiu, F. Bagehorn and A. Schumann, "MTEX-CNN: Multivariate Time Series EXplanations for Predictions with Convolutional Neural Networks," _2019 IEEE International Conference on Data Mining (ICDM), Beijing, China, 2019_, pp. 952-957. Available: [10.1109/ICDM.2019.00106.](https://ieeexplore.ieee.org/document/8970899) [Accessed Feb. 24, 2021].
 
 A third was referred to for the exact architecture of MTEX-CNN, which also critiques MTEX-CNN and offers its own explainable architecture
 
-[3] K. Fauvel, T. Lin, V. Masson, E. Fromont and A. Termier, "XCM: An Explainable Convolutional Neural Network for Multivariate Time Series Classification," 2020, _arXiv:2009.04796v2_. Available: [arXiv:2009.04796v2](https://arxiv.org/abs/2009.04796).
+[3] K. Fauvel, T. Lin, V. Masson, E. Fromont and A. Termier, "XCM: An Explainable Convolutional Neural Network for Multivariate Time Series Classification," 2020, _arXiv:2009.04796v2_. Available: [arXiv:2009.04796v2](https://arxiv.org/abs/2009.04796) [Accessed Feb. 24, 2021].
 
 ### Part 6.2: Library used
 
 This project uses Neurokit2 to process bio-signals.
 
-[4] Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lesspinasse, F., Pham, H., Schölzel, C., & S H Chen, A. (2020). "NeuroKit2: A Python Toolbox for Neurophysiological Signal Processing." Retrieved February 24, 2020, from https://github.com/neuropsychology/NeuroKit
+[4] Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lesspinasse, F., Pham, H., Schölzel, C., & S H Chen, A. (2020). "NeuroKit2: A Python Toolbox for Neurophysiological Signal Processing." Retrieved February 24, 2021, from https://github.com/neuropsychology/NeuroKit
 
 ### Part 6.3: PTB-XL dataset
 
