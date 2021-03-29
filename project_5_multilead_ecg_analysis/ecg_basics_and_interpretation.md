@@ -43,7 +43,7 @@ Below is a typical example of an ECG.
 
 ![A typical example of an ECG](../images/full_ecg_layout.jpg "A typical example of an ECG")
 
-<p style="text-align: center;">Figure 1: A typical example of an ECG reading. This image is taken from [what-when-how.com](http://what-when-how.com/paramedic-care/diagnostic-ecgthe-12-lead-clinical-essentials-paramedic-care-part-2/).</p>
+<p style="text-align: center;">Figure 1: A typical example of an ECG reading. This image is taken from [what-when-how.com](http://what-when-how.com/paramedic-care/diagnostic-ecgthe-12-lead-clinical-essentials-paramedic-care-part-2/). </p>
 
 The ECG is divided into several sections. The main readings are the first 3 lines from the top starting with I, II, and III and going right, top to bottom from aVR, aVL, all the way to V6. All of these leads refer to the same time period of, say, 2-3 seconds where the electrical signals were measured. Each 'blip' in the wave is a heartbeat. The first 'blip' of every lead refers to the same heartbeat, but seen from different areas of the heart.
 
@@ -67,7 +67,7 @@ This idea of the heart being split into different sections is important. There a
 
 ![Electrical currents through the heart](../images/electrical_flow_through_heart.gif "Electrical currents through the heart")
 
-<p style="text-align: center;">Figure 3: An image showing where electricity flowing through the heart corresponds to a heartbeat on an ECG. This gif taken from [hubpages](https://discover.hubpages.com/education/Heart-Rhythms) </p>
+<p style="text-align: center;">Figure 3: An image showing where electricity flowing through the heart corresponds to a heartbeat on an ECG. This gif taken from [hubpages](https://discover.hubpages.com/education/Heart-Rhythms).  </p>
 
 #### Part 2.2.1: The P-wave
 
