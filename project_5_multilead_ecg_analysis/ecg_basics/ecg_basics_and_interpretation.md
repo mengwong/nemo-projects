@@ -57,7 +57,7 @@ On the far left are vertical bars that are very tall. These are simply calibrati
 
 Below is a zoomed in picture of one heartbeat
 
-![A typical heartbeat](../images/ecg_fiducial_points.PNG "A typical heartbeat")
+![A typical heartbeat](../images/ecg_fiducial_points.PNG)
 
 <p style="text-align: center;">Figure 2: An ecg of one heartbeat. The fiducial points all point to normal sinus rhythm. Taken from "Time-Domain Analysis of the Electrocardiogram", 2019, by Ioanna Chouvarda et al.</p>
 
@@ -65,7 +65,7 @@ To begin to understand this picture, we need to understand 'depolarization' and 
 
 This idea of the heart being split into different sections is important. There are 4 chambers in the heart and the electrical signal starts from the upper right chamber of the heart (upper left when viewing the heart on a piece of paper) where it is created, flows downwards through the center, and spreads to the outer layer of the lower chambers.
 
-![Electrical currents through the heart](../images/electrical_flow_through_heart.gif "Electrical currents through the heart")
+![Electrical currents through the heart](../images/electrical_flow_through_heart.gif)
 
 <p style="text-align: center;">Figure 3: An image showing where electricity flowing through the heart corresponds to a heartbeat on an ECG. This gif taken from [hubpages](https://discover.hubpages.com/education/Heart-Rhythms) </p>
 
@@ -106,7 +106,7 @@ The most common view of time-series data is data viewed in the time domain. This
 
 The frequency domain can show us how much of the signal lies in different frequency ranges by showing the signal with respect to frequency (represented in Hertz, Hz). An example can be taken from notebook 02 of this repo, where we do data analysis.
 
-![ECG in the Frequency Domain](../images/frequency_domain_ecg.PNG "ECG in the Frequency Domain")
+![ECG in the Frequency Domain](../images/frequency_domain_ecg.PNG)
 
 <p style="text-align: center;">Figure 4: An ECG shown in the frequency domain.</p>
 

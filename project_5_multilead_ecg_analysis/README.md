@@ -23,7 +23,7 @@ To run this project, start from notebook 2, Data Analysis, onwards. You cannot r
 
 I have saved a processed version of the raw signals, hosted by Github-lfs (Large File Storage).
 
-If you need help understanding ECG data, refer to the markdown file [ECG Basics and Interpretation](ecg_basics_and_interpretation.md), where I explain the basics of interpreting an ECG, the libraries used in Python, and the basics of time-series data.
+If you need help understanding ECG data, refer to the markdown file [ECG Basics and Interpretation](./ecg_basics/ecg_basics_and_interpretation.md), where I explain the basics of interpreting an ECG, the libraries used in Python, and the basics of time-series data.
 
 ### Part 1.2: Libraries used in this project
 
