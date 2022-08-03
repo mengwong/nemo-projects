@@ -1,0 +1,44 @@
+#+TiTLE: some backgeround reading re GF
+
+* Grammatical Framework
+
+Tutorial -- maybe watch Aarne's Ted Talk
+
+* Javascript
+
+https://lodash.com/docs/4.17.15
+
+
+* Haskell
+
+haskellbook.com
+
+
+* Prolog
+swipl
+
+* computable contracts for insurance
+
+https://www.axa.com/en/insights/can-the-insurance-industry-afford-to-ignore-computable-contracts?utm_source=linkedin&utm_medium=social&utm_campaign=2022_2202_insights_june_refresh_social
+
+* dev demo spreadsheet is at
+
+https://docs.google.com/spreadsheets/d/1leBCZhgDsn-Abg2H_OINGGv-8Gpf9mzuX1RR56v0Sss/edit#gid=2000125343
+
+* formal verification
+
+https://docs.google.com/presentation/d/1hFp2SE1Ab9XcM4mGj7_yFlcqT5JTRaotIBxCGiWKiOU/edit
+
+* singapore laws are restructured
+
+https://www.agc.gov.sg/docs/default-source/default-document-library/agc-media-statement_launch-of-universal-revision-project.pdf
+
+http://www.grammaticalframework.org/~aarne/cade-talk.pdf
+
+* logics
+
+https://en.wikipedia.org/wiki/Three-valued_logic
+
+LTL and CTL
+
+https://en.wikipedia.org/wiki/CTL*
