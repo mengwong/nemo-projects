@@ -1,4 +1,4 @@
-#+TiTLE: some backgeround reading re GF
+#+TiTLE: some background reading re GF
 
 * Grammatical Framework
 
