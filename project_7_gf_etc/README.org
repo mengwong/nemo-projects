@@ -1,8 +1,8 @@
-#+TiTLE: some background reading re GF
+#+TITLE: some background reading re GF
 
 * Grammatical Framework
 
-Tutorial -- maybe watch Aarne's Ted Talk
+Tutorial -- maybe watch [[https://www.youtube.com/watch?v=x1LFbDQhbso][Aarne's Google Tech Talk]]
 
 * Javascript
 
